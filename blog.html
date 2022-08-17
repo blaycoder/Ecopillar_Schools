@@ -312,7 +312,7 @@ $json = $response
 
 
       <!-- FOOTER AREA -->
-      <div class="footer" data-background="images/footer.jpg">
+      <div class="footer" data-background="./images/footer.jpg">
 		<div class="content-wrap">
 			<div class="container">
 

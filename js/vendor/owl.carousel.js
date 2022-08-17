@@ -524,7 +524,7 @@
 			width = this.$element.children(nestedSelector).width();
 
 			if (imgs.length && width <= 0) {
-				this.preloadAutoWidthImages(imgs);
+				this.preloadAutoWidthimages(imgs);
 			}
 		}
 
@@ -1434,7 +1434,7 @@
 	 * @todo Replace by a more generic approach
 	 * @protected
 	 */
-	Owl.prototype.preloadAutoWidthImages = function(images) {
+	Owl.prototype.preloadAutoWidthimages = function(images) {
 		images.each($.proxy(function(i, element) {
 			this.enter('pre-loading');
 			element = $(element);
