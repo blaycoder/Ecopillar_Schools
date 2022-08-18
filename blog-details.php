@@ -1,6 +1,6 @@
 <?php 	
 
-$url = 'https://eschool-ng.com/free-eSchool/portal/fetchdata_fulbrightachieversschools.php';
+$url = 'https://eschool-ng.com/eschool-pro/v1/portal/fetchdata_ecopillar.php';
 $request_url = $url;
 
 $curl = curl_init($request_url);
@@ -33,7 +33,7 @@ $json = $response
 	<!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta description="">
-	<title>Mater Amabilis Schools </title>
+	<title>Ecopillars Schools </title>
 	<!-- ==============================================
 	Favicons
 	=============================================== -->
@@ -83,21 +83,17 @@ $json = $response
 					<div class="col-sm-8 col-md-6">
 						<div class="info">
 							<div class="info-item">
-								<i class="fa fa-phone"></i> 081
+								<i class="fa fa-phone"></i> 09068676161, 08066551023
 							</div>
 							<div class="info-item">
 								<i class="fa fa-envelope-o"></i>
-								<a href="mailto:afeez.adeniran@fulbrightmail.org">amabilisschools@gmail.com</a>
+								<a href="mailto:ecopillarsschools@gmail.com">ecopillarsschools@gmail.com</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-4 col-md-6">
 						<div class=" pull-right d-inline-flex" style="margin: 15px 0px 15px 0px;">
-							<!--<a href="https://www.facebook.com/Crownimperials/" class="fb"><i class="fa fa-facebook"></i></a> 
-							<a href="https://twitter.com/SchoolCrown" class="tw"><i class="fa fa-twitter"></i></a> 
-							<a href="#" class="ig"><i class="fa fa-instagram"></i></a> 
-							<a href="#" class="in"><i class="fa fa-linkedin"></i></a> -->
-							<a href="https://eschool-ng.com/login.php" class="btn btn-primary kkd"> <i
+							<a href="https://eschool-ng.com/ecopillarsschools_login.php" class="btn btn-primary kkd"> <i
 									class="fa fa-lock"></i> eSchool Portal Login</a>
 							<style>
 								.sosmed-icon a {
@@ -108,7 +104,7 @@ $json = $response
 
 								.kkd {
 									border-radius: 5px !important;
-									background-color: #fff !important;
+									background-color: #f5dd07 !important;
 									padding-left: 10px;
 									padding-right: 10px;
 
@@ -125,7 +121,7 @@ $json = $response
 			<div class="container">
 				<nav id="navbar-example" class="navbar navbar-expand-lg">
 					<a class="navbar-brand jk" href="index.html">
-						<img src="./img/fullBrightLogo-removebg-preview.png" alt="logo">
+						<img src="./images/logo.jpeg" alt="logo">
 					</a>
 
 					<style type="text/css">
@@ -136,13 +132,13 @@ $json = $response
 
 						@media screen and (max-width: 768px) {
 							.navbar-main.stiky .navbar-brand img {
-								width: 120px;
+								width: 70px;
 								text-align: center;
 								margin: 0 40px 0 40px;
 							}
 
 							.jk img {
-								width: 120px;
+								width: 70px;
 								height: auto;
 							}
 
@@ -233,7 +229,7 @@ $json = $response
             blogData.innerHTML += `
 		                  <div class="col-12 col-lg-10 col-md-6 my-4 blog-single" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);padding:0">
         							<a href='blog-details.php?id="${post[0]}"'>
-        									<img src="https://eschool-ng.com/free-eSchool/portal/news_image/${post[6]}"/ width="100%">
+        									<img src="https://eschool-ng.com/eschool-pro/v1/portal/news_image/${post[6]}"/ width="100%">
         								</a>
         							<div class="blog__content p-4">
         								<h2 class="blog-title"><a href='blog-details.php?id="${post[0]}"'>${post[1]}</a></h2>
@@ -287,7 +283,7 @@ $json = $response
                     widgetData.innerHTML +=`
                     <div class='single-widget my-3' style='box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);'>
                       <a href="blog-details.php?id=${post[0]}">
-                          <img src="https://eschool-ng.com/free-eSchool/portal/news_image/${post[6]}"/ width="100%">
+                          <img src="https://eschool-ng.com/eschool-pro/v1/portal/news_image/${post[6]}"/ width="100%">
                         </a>
                     </div>
                     `
@@ -319,9 +315,9 @@ $json = $response
 				<div class="row">
 					<div class="col-sm-12 col-md-6 col-lg-3">
 						<div class="footer-item">
-							<img src="img\fullBrightLogo-removebg-preview.png" alt="logo bottom" class="logo-bottom">
+							<img src="./images/logo_png.png" alt="logo bottom" class="logo-bottom">
 							<div class="spacer-30"></div>
-							<p>Welcome to Mater Amabilis Schools where our vision is to pursue education and become effective intelligent and productive memebrs of the society in character. </p></p>
+							<p>We are known for our quality and excellence; this is why we are ranked among the best primary school in Lagos. Our secondary school are rated as one of the best secondary school in Lagos. </p></p>
 
 						</div>
 					</div>
@@ -336,20 +332,21 @@ $json = $response
 									<div class="info-icon">
 										<span class="fa fa-map-marker"></span>
 									</div>
-									<div class="info-text">Address:37 unity close behind Chevron estate Peter Imemesi street. </div>
+									<div class="info-text">No 18 Anifa Street Ilufe, Ojo Alaba
+										Lagos State</div>
 								</li>
 								<li>
 									<div class="info-icon">
 										<span class="fa fa-phone"></span>
 									</div>
-									<div class="info-text">08132673546</div>
+									<div class="info-text">09068676161, 08066551023</div>
 								</li>
 								<li>
 									<div class="info-icon">
 										<span class="fa fa-envelope"></span>
 									</div>
-									<div class="info-text"><a href="mailto:amabilisschools@gmail.com"
-											title="">amabilisschools@gmail.com </a></div>
+									<div class="info-text"><a href="mailto:ecopillarsschools@gmail.com"
+											title="">ecopillarsschools@gmail.com</a></div>
 								</li>
 								<li>
 									<div class="info-icon">
@@ -388,7 +385,7 @@ $json = $response
 							<div class="footer-title">
 								Get in Touch
 							</div>
-							<p>Follow us on all our social media handles @Mater Amabilis Schools</p>
+							<p>Follow us on all our social media handles @ECOPILLARS SCHOOLS</p>
 							<div class="sosmed-icon d-inline-flex">
 								<a href="#" class="fb"><i class="fa fa-facebook"></i></a>
 								<a href="#" class="tw"><i class="fa fa-twitter"></i></a>
@@ -405,7 +402,7 @@ $json = $response
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 col-md-12">
-						<p class="ftex copy" style="color: #42241c;">© 2022 Mater Amabilis Schools. All rights reserved. Designed by <a
+						<p class="ftex copy" style="color: #42241c;">© 2022 ECOPILLARS SCHOOLS. All rights reserved. Designed by <a
 								href="http://akisolutions.com.ng" target="_blank">AKI Solutions</a></p>
 					</div>
 				</div>
